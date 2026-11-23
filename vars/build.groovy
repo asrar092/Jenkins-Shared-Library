@@ -1,3 +1,3 @@
-def call(project name){
-  sh docker build -t "${project name}" .
+def call(project_name){
+  sh docker build -t "${project_name}" .
 }
